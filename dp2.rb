@@ -3,13 +3,13 @@
 
 
 
-def double_numbers(input_array)
+def double_numbers(array)
   new_array = []
 
-  input_array.each do |number|
+  array.each do |number|
     new_array << number *= 2
-    return new_array
   end
+  return new_array
 end
 
 p double_numbers([4, 1, 3])
