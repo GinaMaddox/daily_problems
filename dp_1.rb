@@ -21,7 +21,7 @@ end
 p sum
 
 _____
-
+# += is the same as "sum = sum + 1 (or whatever)"
 #another problem
 #array = [1, 2, 3, 4, 5]
 
