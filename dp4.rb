@@ -22,3 +22,4 @@ end
 puts "Hi Bob!"
 
 
+#while loop can go forever.  Ctrl + c to quit loop if stuck.  
