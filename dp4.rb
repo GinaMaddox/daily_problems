@@ -11,15 +11,27 @@
 #puts "Hi, Bob!"```
 #Rewrite the code using a while loop so the program will run *forever* unless the user enters a name of Bob.
 
-
+#METHOD ONE
 name = ""
   
-while name != "Bob"
-  puts "What is your name?"
-  name = gets.chomp
-end
+ while name != "Bob"
+   puts "What is your name?"
+   name = gets.chomp
+ end
 
-puts "Hi Bob!"
+ puts "Hi Bob!"
 
 
 #while loop can go forever.  Ctrl + c to quit loop if stuck.  
+
+
+#METHOD TWO
+while true
+  puts "What is your name"
+  name = gets.chomp
+  if name == "Bob"
+    break
+  end
+end
+puts "Hi Bob!"
+
